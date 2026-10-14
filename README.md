@@ -63,3 +63,60 @@ Proje üç temel katmandan oluşmaktadır:
 ## Projenin Amacı
 
 Bu proje, full stack web geliştirme alanında pratik deneyim kazanmak amacıyla geliştirilmiştir. Frontend ve backend arasındaki iletişim, REST API kullanımı, ilişkisel veritabanı işlemleri, kullanıcı yönetimi, kimlik doğrulama, yetkilendirme ve duyarlı arayüz tasarımı gibi konularda uygulamalı çalışma yapılmıştır.
+
+
+
+## 🚀 Kurulum ve Çalıştırma
+
+STRYVE projesini yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz.
+
+### 1. Gereksinimler
+
+- Node.js ve npm
+- MySQL
+- phpMyAdmin
+- Git
+
+### 2. Projeyi İndirme
+
+```bash
+git clone REPO_ADRESINIZ
+cd STRYVE
+```
+
+### 3. Backend Kurulumu
+
+Backend klasörüne girerek gerekli paketleri yükleyin:
+
+```bash
+cd backend
+npm install
+```
+
+Gerekli ortam değişkenlerini `.env` dosyasında yapılandırın. Veritabanı bağlantısı ve JWT için gereken değerleri kendi ortamınıza göre ayarlayın.
+
+Backend sunucusunu başlatın:
+
+```bash
+node sql-db/server.js
+```
+
+### 4. Frontend Kurulumu
+
+Yeni bir terminal açarak frontend klasörüne girin:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Terminalde gösterilen yerel adresi tarayıcıda açın.
+
+### 5. Veritabanı Yapılandırması
+
+MySQL sunucusunu başlatın ve phpMyAdmin üzerinden proje veritabanını oluşturun. Projede sağlanan SQL dosyası varsa içe aktarın. Backend veritabanı bağlantı ayarlarının doğru olduğundan emin olun.
+
+### 6. Uygulamayı Çalıştırma
+
+Uygulamayı kullanabilmek için frontend ve backend sunucularının çalışıyor olması ve MySQL bağlantısının doğru yapılandırılması gerekir.
