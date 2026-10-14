@@ -120,3 +120,51 @@ MySQL sunucusunu başlatın ve phpMyAdmin üzerinden proje veritabanını oluşt
 ### 6. Uygulamayı Çalıştırma
 
 Uygulamayı kullanabilmek için frontend ve backend sunucularının çalışıyor olması ve MySQL bağlantısının doğru yapılandırılması gerekir.
+
+## 📸 Proje Ekran Görüntüleri
+
+### 🏠 Ana Sayfa
+
+STRYVE'nin marka kimliğini yansıtan, kullanıcıları ürünlere yönlendiren ana sayfa tasarımı.
+
+![STRYVE Ana Sayfa](home.png)
+
+---
+
+### 🛍️ Ürünler Sayfası
+
+Spor ve fitness ürünlerinin listelendiği, ürün filtreleme ve fiyat sıralama işlemlerinin gerçekleştirilebildiği sayfa.
+
+![STRYVE Ürünler Sayfası](urunler.png)
+
+---
+
+### 🛒 Sepet Sayfası
+
+Kullanıcıların sepete ekledikleri ürünleri ve sipariş öncesindeki sepet bilgilerini görüntüleyebildiği sayfa.
+
+![STRYVE Sepet Sayfası](sepet.png)
+
+---
+
+### 💳 Sipariş ve Ödeme Sayfası
+
+Teslimat bilgilerinin girildiği ve sipariş işlemlerinin gerçekleştirildiği ödeme ekranı.
+
+![STRYVE Checkout Sayfası](checkout.png)
+
+---
+
+### 🛠️ Admin Yönetim Paneli
+
+Ürün, kullanıcı, sipariş ve müşteri mesajları gibi yönetim işlemlerinin gerçekleştirildiği yönetim paneli.
+
+![STRYVE Admin Yönetim Paneli](admin.png)
+
+---
+
+### 📩 İletişim Sayfası
+
+Kullanıcıların iletişim kurabilmesi için hazırlanan iletişim sayfası.
+
+![STRYVE İletişim Sayfası](contact.png)
